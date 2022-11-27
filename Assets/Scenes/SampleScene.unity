@@ -509,9 +509,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33afd98a62480c241a2a6e97e99dbd40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0
-  JumpSpeed: 0
-  Gravity: 0
+  Speed: 3
+  JumpSpeed: 1
+  Gravity: 2
 --- !u!114 &910188676
 MonoBehaviour:
   m_ObjectHideFlags: 0
