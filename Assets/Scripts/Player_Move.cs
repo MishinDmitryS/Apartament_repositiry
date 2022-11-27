@@ -4,36 +4,30 @@ using UnityEngine;
 
 public class Player_Move : MonoBehaviour
 {
-    [Header("Скорость перемещения персонажа")]
-    public float speed = 4f;
-    // Update is called once per frame
+    public float Speed = 0.0f;
+    public float JumpSpeed = 0.0f;
+    public float Gravity = 0.0f;
+
+    private Vector3 moveDirection;
+    private CharacterController _char = null;
+
+    private void Start()
+    {
+        _char = GetComponent<CharacterController>();
+    }
+
     private void Update()
     {
-        GetInput();
+        if (_char.isGrounded)
+        {
+            moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical")) * Speed;
+            moveDirection = transform.TransformDirection(moveDirection);
+        }
+        else
+        {
+            moveDirection.y -= Gravity * Time.deltaTime;
+        }
+        _char.Move(moveDirection * Time.deltaTime);
     }
 
-    private void GetInput()
-    {
-        if (Input.GetKey(KeyCode.W))
-        {
-            transform.localPosition += transform.forward * speed * Time.deltaTime;
-        }
-
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.localPosition += -transform.forward * speed * Time.deltaTime;
-        }
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.localPosition += -transform.right * speed * Time.deltaTime;
-        }
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.localPosition += transform.right * speed * Time.deltaTime;
-        }
-
-    }
-    
 }
