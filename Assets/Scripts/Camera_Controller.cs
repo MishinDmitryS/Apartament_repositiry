@@ -4,27 +4,26 @@ using UnityEngine;
 
 public class Camera_Controller : MonoBehaviour
 {
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
     float xRot;
     float yRot;
     float xRotCurrent;
     float yRotCurrent;
     public Camera player;
     public GameObject playerGameObject;
-    public float sensivity = 4f;
+    public float sensivity = 5f;
     public float smoothTime = 0.1f;
     float currentVelosityX;
     float currentVelosityY;
 
-    private void Start()
-    {
-        Cursor.lockState = CursorLockMode.Locked;
-    }
-
-    private void Update()
+    void Update()
     {
         MouseMove();
     }
-    private void MouseMove()
+    void MouseMove()
     {
         xRot += Input.GetAxis("Mouse X") * sensivity;
         yRot += Input.GetAxis("Mouse Y") * sensivity;
