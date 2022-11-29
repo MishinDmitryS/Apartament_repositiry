@@ -59,8 +59,12 @@
     <Compile Include="Assets\Scripts\Player_Move.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\Camera_Controller.cs" />
+    <Compile Include="Assets\Scripts\Televisor.cs" />
     <Compile Include="Assets\Scripts\Interactive.cs" />
     <Compile Include="Assets\Scripts\ControllerMove.cs" />
+    <Compile Include="Assets\Scripts\LightKitchen.cs" />
+    <Compile Include="Assets\Scripts\SwitchLightKitchen.cs" />
+    <Compile Include="Assets\Scripts\SwitchVanna.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

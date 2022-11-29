@@ -358,7 +358,11 @@
 "Assets/Scripts/ControllerMove.cs"
 "Assets/Scripts/Door.cs"
 "Assets/Scripts/Interactive.cs"
+"Assets/Scripts/LightKitchen.cs"
 "Assets/Scripts/Player_Move.cs"
+"Assets/Scripts/SwitchLightKitchen.cs"
+"Assets/Scripts/SwitchVanna.cs"
+"Assets/Scripts/Televisor.cs"
 -langversion:9.0
 
 /deterministic

@@ -51,5 +51,28 @@ public class Interactive : MonoBehaviour
                 _hit.transform.GetComponent<Door>().Open();
             };
         }
+        if(_hit.transform != null && _hit.transform.GetComponent<Televisor>()) {
+            Debug.DrawRay(_ray.origin, _ray.direction * _maxDistanceRay, Color.green);
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                _hit.transform.GetComponent<Televisor>().StartStopVideo();
+            };
+        }
+        if (_hit.transform != null && _hit.transform.GetComponent<SwitchLightKitchen>())
+        {
+            Debug.DrawRay(_ray.origin, _ray.direction * _maxDistanceRay, Color.green);
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                _hit.transform.GetComponent<SwitchLightKitchen>().EnableLightSwitch();
+            };
+        }
+        if (_hit.transform != null && _hit.transform.GetComponent<SwitchVanna>())
+        {
+            Debug.DrawRay(_ray.origin, _ray.direction * _maxDistanceRay, Color.green);
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                _hit.transform.GetComponent<SwitchVanna>().EnableLightSwitch();
+            };
+        }
     }
 }
