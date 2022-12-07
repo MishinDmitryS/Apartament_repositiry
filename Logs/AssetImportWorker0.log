@@ -15,7 +15,7 @@ C:/Users/Dmitry/Desktop/AllProject/ApartamentProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57887
+59528
 Successfully changed project path to: C:/Users/Dmitry/Desktop/AllProject/ApartamentProject
 C:/Users/Dmitry/Desktop/AllProject/ApartamentProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Dmitry/Desktop/AllProject/ApartamentProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 120.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 116.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012031 seconds.
+Registered in 0.013683 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 101.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 111.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
+- Completed reload, in  1.002 seconds
 Domain Reload Profiling:
-	ReloadAssembly (887ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (615ms)
-			LoadAssemblies (111ms)
+		EndReloadAssembly (695ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (159ms)
+			SetupTypeCache (164ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (348ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (406ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (102ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008185 seconds.
+Registered in 0.009316 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Dmitry\Desktop\AllProject\ApartamentProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Dmitry\Desktop\AllProject\ApartamentProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.715 seconds
+- Completed reload, in  1.856 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1716ms)
-		BeginReloadAssembly (242ms)
+	ReloadAssembly (1859ms)
+		BeginReloadAssembly (193ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1258ms)
-			LoadAssemblies (196ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1471ms)
+			LoadAssemblies (151ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (392ms)
+			SetupTypeCache (402ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (585ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (760ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (396ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (493ms)
+				ProcessInitializeOnLoadMethodAttributes (105ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (113.9 KB). Loaded Objects now: 3852.
 Memory consumption went from 117.5 MB to 117.4 MB.
-Total: 4.652500 ms (FindLiveObjects: 0.420800 ms CreateObjectMapping: 0.113600 ms MarkObjects: 3.956900 ms  DeleteObjects: 0.159100 ms)
+Total: 4.290100 ms (FindLiveObjects: 0.405500 ms CreateObjectMapping: 0.152600 ms MarkObjects: 3.578500 ms  DeleteObjects: 0.151600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,39 +160,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 109803.852365 seconds.
-  path: Assets/Apartament/Окно спальня.prefab
-  artifactKey: Guid(53da5fcaf85178142873e4ee9fa8fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartament/Окно спальня.prefab using Guid(53da5fcaf85178142873e4ee9fa8fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7ce3b6f1f0954ec5579f05d53a2704') in 0.217727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.732251 seconds.
-  path: Assets/Apartament/Окно кухня.prefab
-  artifactKey: Guid(04884fe320b4e7541ae589f855a7500c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartament/Окно кухня.prefab using Guid(04884fe320b4e7541ae589f855a7500c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd77a60c8190fde65f96625925098c5a') in 0.023773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.686303 seconds.
-  path: Assets/Apartament/Потолок.prefab
-  artifactKey: Guid(06708ad9eb2367944be9b50a41d5b781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartament/Потолок.prefab using Guid(06708ad9eb2367944be9b50a41d5b781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b31c4092c6d54dbbaebc4e5191beec6') in 0.024173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.903523 seconds.
-  path: Assets/Apartament/Пол.prefab
-  artifactKey: Guid(47969708b448eda439e2225f4e4c8075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartament/Пол.prefab using Guid(47969708b448eda439e2225f4e4c8075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501ca66ec1a26335bfc3cb42dbf6834c') in 0.021590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.879480 seconds.
-  path: Assets/Apartament/Умывальник.prefab
-  artifactKey: Guid(3c33ba378ed7f3544ac9d3220ea03df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartament/Умывальник.prefab using Guid(3c33ba378ed7f3544ac9d3220ea03df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201fd3eec6b4d100fd6cc174e0960719') in 0.043201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.707287 seconds.
-  path: Assets/Apartament/Шкаф.prefab
-  artifactKey: Guid(66a9390753e99394ea0f6f2281b4641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartament/Шкаф.prefab using Guid(66a9390753e99394ea0f6f2281b4641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308621ee0236addddd5d9a529b7c50a0') in 0.085822 seconds 
